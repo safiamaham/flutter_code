@@ -48,20 +48,23 @@ main() {
   // print(studentnames);
 
 //sort at descending order
- // List studentnames = [1, 5, 2, 4, 3, 9, 8, 6, 7, 0];
+  // List studentnames = [1, 5, 2, 4, 3, 9, 8, 6, 7, 0];
   // studentnames.sort();
   // //  print(studentnames);
   // var abc=List.of(studentnames.reversed);
   //   print(abc);
-  
+
   //yeh list.of karky or .tolist karky dono sy large bracket mai convert hoti hai list ki type
 // List studentnames= [1, 2, 3, 4, 5, 6];
 // var evenNumbers = List.of(studentnames.where((n)=>n.isEven ));
 // print(evenNumbers);  // Output: [2, 4, 6]
-//or 
+//or
 // List<int> numbers = [1, 2, 3, 4, 5, 6];
 // var evenNumbers = numbers.where((number) => number.isEven);
 // print(evenNumbers.toList());  // Output: [2, 4, 6]
 
+  // List checknumbers = [1, 5, 8, 6, 9, 4, 2];
+  // checknumbers.where((e) => e.isOdd);
+  // print(checknumbers);
 
 }
