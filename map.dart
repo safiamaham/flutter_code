@@ -59,12 +59,33 @@ main() {
   //usy access karna to hamny 2 index dia the
 
   //cascating operator in map
-  Map f1 = {1: "a", 2: "b", 3: "C"};
-  Map f2 = {1: "d", 2: "g", 3: "l"};
-  Map f3 = {1: "e", 2: "h", 3: "k"};
-  Map f4 = {1: "f", 2: "i", 3: "j"};
-  Map fruit = {}
-    ..addAll(f1)
-    ..addAll(f2);
-  print(fruit);
+  //is way mai nahi horaha sab element add q k baqi mai values 1 sy ziada hain jabky neechy values f2 and f3
+  // mai ek hi hai
+//  var f1 = {1: "a", 2: "b", 3: "C"};
+// var f2 = {1: "d", 2: "g", 3: "l"};
+//   var f3 = {1: "e", 2: "h", 3: "k"};
+//  var f4 = {1: "f", 2: "i", 3: "j"};
+//   var fruit = {}
+//     ..addAll(f1)
+//     ..addAll(f2);
+//   print(fruit);
+//  var fruit  = {...f1, ...f2, ...f3};
+//   print(fruit);
+
+//right way
+  // var f1 = {1: "apple", 2: "orange"};
+  // var f2 = {3: "banana"};
+  // var f3 = {4: "mango"};
+  // var fruit = {}
+  //   ..addAll(f1)
+  //   ..addAll(f2);
+  // //or
+  // // fruit = {...f1, ...f3};
+  // print(fruit);
+
+  //for each
+  // Map fruit = {1: "mango", 2: "orange", 3: "blue", 4: "green", 5: "manal"};
+  // fruit.forEach((k, v) {
+  //   print("hellow $v");
+  // });
 }
