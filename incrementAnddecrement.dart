@@ -24,6 +24,8 @@ main() {
   //q=-2
 
   var result = w++ + --d;
-
+   //w=0
+   //d=-1
+   //result=-2
   print(result);
 }
